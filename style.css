@@ -1,19 +1,70 @@
 /* style.css */
 
+* {
+/* outline: 1px dotted red; */
+box-sizing: content-box;
+margin: 0;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
-  max-width: 700px;
+  max-width: 750px;
+  margin: 20px auto;
+}
+
+img {
+  max-width: 750px;
+  height: auto;
 }
 
 li {
   padding-bottom: 10px;
 }
 
-h2 {
+h1, h2 {
   color: rgb(41, 41, 41);
+  margin: 20px 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+.container {
+  margin: 20px;
+}
+
+.card {
+  border: 1px solid rgb(208, 208, 208);
+  display: block;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  margin: 20px auto;
+  /* box-shadow: 1, 2, 4, black; */
+}
+
+.card-img {
+  width: 300px;
+  height: 180px;
+  margin-bottom: 10px;
+}
+
+a {
+  background-color: red;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  width: 150px;
+  padding: 10px 20px;
+  border-radius: 40px;
+  display: block;
+  margin: 10px auto;
+
 }
 
 a:hover {
-  color:blueviolet;
+  background-color:darkred;
 }
